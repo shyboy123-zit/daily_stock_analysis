@@ -1300,6 +1300,11 @@ class GeminiAnalyzer:
 - **检查清单**：每项用 ✅/⚠️/❌ 标记
 - **消息面时间合规**：`latest_news`、`risk_alerts`、`positive_catalysts` 不得包含超出近{news_window_days}日或时间未知的信息
 
+### 🇰🇷 语言要求（强制）
+**所有分析内容必须使用韩语（한국어）输出。** 包括：analysis_summary、trend_prediction、operation_advice、risk_warning、trend_analysis、short_term_outlook、medium_term_outlook、technical_analysis、volume_analysis、fundamental_analysis、news_summary、key_points、buy_reason 以及 dashboard 中的所有文本字段。
+数字和代码保持原样，仅文字内容翻译为韩语。
+
+
 请输出完整的 JSON 格式决策仪表盘。
 
 ### 🇰🇷 语言要求（强制）
